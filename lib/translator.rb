@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require "yaml"
 $ENG = 0
 $JAP = 1 
@@ -15,6 +16,14 @@ def load_library(file_path)
   end
   
   library
+=======
+# require modules here
+require "yaml"
+
+def load_library(file_path)
+  lib = YAML.load_file(file_path)
+  p lib
+>>>>>>> d2d11dfd8b7a0f2b2480b1fe9a549d9e2cc5dd67
 end
 
 def get_japanese_emoticon(file_path, emoticon)
