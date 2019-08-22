@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 require "yaml"
 $ENG = 0
 $JAP = 1 
